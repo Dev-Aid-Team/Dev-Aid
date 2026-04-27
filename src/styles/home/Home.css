@@ -1,0 +1,46 @@
+/* ============================================
+   HOME — tool-specific styles only
+   Shared classes (btn, card, content-item, …)
+   come from global.css
+   ============================================ */
+
+.home-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+}
+
+.home-filter-btn {
+  padding: 5px var(--spacing-sm);
+  font-size: var(--font-size-tiny);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: var(--color-bg-secondary);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.home-filter-btn:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background: var(--color-bg-primary);
+}
+
+.home-filter-btn--active {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background: var(--color-bg-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.home-no-results {
+  font-size: var(--font-size-small);
+  color: var(--color-text-tertiary);
+  padding: var(--spacing-lg) 0;
+  border-top: 1px solid var(--color-border-light);
+}
