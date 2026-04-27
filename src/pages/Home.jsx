@@ -17,10 +17,10 @@ function Home() {
         <div className="content-list">
           <Link to="/jsonFormatter" className="content-item">
             <div className="content-item-header">
-              <span className="content-item-title">JSON formatter</span>
+              <span className="content-item-title">JSON Formatter</span>
               <span className="content-item-tag">Formatter</span>
             </div>
-            <p className="content-item-desc">Problems with reading JSON ?</p>
+            <p className="content-item-desc">Problems with reading JSON?</p>
           </Link>
 
           <Link to="/colorPicker" className="content-item">
@@ -29,23 +29,36 @@ function Home() {
               <span className="content-item-tag">Design</span>
             </div>
             <p className="content-item-desc">
-              Problems finding the right color ?
+              Problems finding the right color?
             </p>
           </Link>
 
           <Link to="/regex" className="content-item">
             <div className="content-item-header">
-              <span className="content-item-title">Regex Tester & Validater</span>
-              <span className="content-item-tag">Validater</span>
+              <span className="content-item-title">
+                Regex Tester & Validator
+              </span>
+              <span className="content-item-tag">Validator</span>
             </div>
             <p className="content-item-desc">Problems with Regex?</p>
+          </Link>
+
+          <Link to="/imageConverter" className="content-item">
+            <div className="content-item-header">
+              <span className="content-item-title">Image Converter</span>
+              <span className="content-item-tag">Converter</span>
+            </div>
+            <p className="content-item-desc">
+              Convert images between PNG, JPEG, WebP and more — right in your
+              browser.
+            </p>
           </Link>
         </div>
       </section>
 
       <section className="stats">
         <div className="stat">
-          <div className="stat-content">03</div>
+          <div className="stat-content">04</div>
           <div className="stat-label">Tools available</div>
         </div>
         <div className="stat">
@@ -54,7 +67,7 @@ function Home() {
         </div>
         <div className="stat">
           <div className="stat-content">∞</div>
-          <div className="stat-label">for ever free</div>
+          <div className="stat-label">Forever free</div>
         </div>
       </section>
 
